@@ -36,6 +36,6 @@ else
 fi
 
 # secrets can be printed, they are protected by Github Actions
-echo "Executing $command from ${HASURA_WORKDIR:-./}"
+echo "Executing Hasura command"
 
 sh -c "$command"
